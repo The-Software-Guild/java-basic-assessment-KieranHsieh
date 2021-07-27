@@ -6,7 +6,6 @@ public class RockPaperScissors {
         boolean shouldContinue = true;
         try {
             do {
-                Scanner inputScanner = new Scanner(System.in);
                 // Ask for the number of rounds
                 int numRounds = UserInputQuery.promptGetIntegerUserInput("How many rounds would you like to play (1 - 10)? ");
                 Game rockPaperScissors = new Game(numRounds);
